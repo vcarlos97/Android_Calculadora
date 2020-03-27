@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculadora);
+        setContentView(R.layout.activity_main);
 
         final TextView pantalla = findViewById((R.id.pantalla));
         final Button button1 = findViewById(R.id.button1);
